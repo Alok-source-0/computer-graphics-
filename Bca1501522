@@ -1,0 +1,109 @@
+
+
+**3D Basic Mathematics for Computer Graphics**
+
+---
+
+### Page 1: Introduction
+
+- 3D mathematics is essential for computer graphics, game development, and simulation.
+- Understanding 3D concepts helps in creating realistic and interactive environments.
+- Key topics: vectors, matrices, transformations, projections, and coordinate systems.
+
+### Page 2: Vectors
+
+- **Definition**: A vector is a quantity with magnitude and direction.
+- **Notation**: Vectors are represented by bold letters (e.g., **a**).
+- **Operations**:
+    - **Addition**: **a** + **b** = **c**
+    - **Scalar multiplication**: k**a** = **c**
+    - **Dot product**: **a** · **b** = |**a**||**b**|cos(θ)
+- **Properties**:
+    - **Magnitude (length)**: |**a**| = √(x² + y² + z²)
+    - **Normalization**: **a** / ||**a**||
+    - **Orthogonality**: **a** · **b** = 0 (for perpendicular vectors)
+
+### Page 3: Vector Properties
+
+- **Magnitude (length)**: |**a**| = √(x² + y² + z²)
+- **Normalization**: **a** / ||**a**||
+- **Orthogonality**: **a** · **b** = 0 (for perpendicular vectors)
+- **Vector Component Manipulation**:
+    - **a** = (x, y, z)
+    - **a** = **a**x + **a**y + **a**z
+
+### Page 4: Matrices
+
+- **Definition**: A matrix is a rectangular array of numbers.
+- **Notation**: Matrices are represented by capital letters (e.g., A).
+- **Operations**:
+    - **Addition**: A + B = C
+    - **Multiplication**: AB = C
+    - **Transpose**: Aᵀ
+- **Properties**:
+    - **Identity matrix**: I
+    - **Inverse matrix**: A⁻¹
+    - **Determinant**: det(A)
+    - **Orthogonal matrix**: AᵀA = I
+
+### Page 5: Matrix Properties
+
+- **Identity matrix**: I
+- **Inverse matrix**: A⁻¹
+- **Determinant**: det(A)
+- **Orthogonal matrix**: AᵀA = I
+- **Matrix Component Manipulation**:
+    - A = [a₁₁, a₁₂, ...; a₂₁, a₂₂, ...; ...]
+    - A = [**a**₁, **a**₂, ...]
+
+### Page 6: Transformations
+
+- **Translation**: Moving objects in 3D space.
+- **Rotation**: Rotating objects around axes.
+- **Scaling**: Resizing objects.
+- **Composite Transformations**: Combining multiple transformations.
+- **Transformation Matrices**:
+    - **Translation**: T(x, y, z)
+    - **Rotation**: R(x, θ), R(y, θ), R(z, θ)
+    - **Scaling**: S(x, y, z)
+
+### Page 7: Rotation Matrices
+
+- **Rotation around x-axis**: Rx(θ)
+- **Rotation around y-axis**: Ry(θ)
+- **Rotation around z-axis**: Rz(θ)
+- **Composite Rotation**: R = Rx(θ)Ry(φ)Rz(ψ)
+- **Rotation Matrix Properties**:
+    - **Orthogonality**: RᵀR = I
+    - **Determinant**: det(R) = 1
+
+### Page 8: Projections
+
+- **Perspective Projection**: Projects 3D objects onto 2D with perspective.
+- **Orthographic Projection**: Projects 3D objects onto 2D without perspective.
+- **Projection Matrices**:
+    - **Perspective**: P = [1, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0; 0, 0, 0, 1]
+    - **Orthographic**: P = [1, 0, 0, 0; 0, 1, 0, 0; 0, 0, 0, 0; 0, 0, 0, 1]
+
+### Page 9: Coordinate Systems
+
+- **Cartesian Coordinates**: (x, y, z)
+- **Spherical Coordinates**: (r, θ, φ)
+- **Cylindrical Coordinates**: (r, θ, z)
+- **Conversions Between Coordinate Systems**:
+    - **Cartesian to Spherical**: (x, y, z) → (r, θ, φ)
+    - **Spherical to Cartesian**: (r, θ, φ) → (x, y, z)
+
+### Page 10: Conclusion
+
+- 3D mathematics is crucial for computer graphics and related fields.
+- Understanding vectors, matrices, transformations, projections, and coordinate systems is key to creating realistic and interactive 3D environments.
+
+---
+
+#### Key Formulas and Equations:
+
+- **Vector Magnitude**: |**a**| = √(x² + y² + z²)
+- **Dot Product**: **a** · **b** = |**a**||**b**|cos(θ)
+
+---
